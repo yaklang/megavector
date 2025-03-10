@@ -17,6 +17,71 @@ useSeoMeta({
       <div class="wjaq-container mx-auto h-[100%] flex flex-col justify-center items-center">
         <div class="text-[52px] color-[#fff]"><span class="font-bold-600">千机（ChatCS）</span>知识增强网络安全大模型</div>
         <div class="text-[18px] mt-[20px] color-[#fff]">融合“千万”攻防知识，凝炼“百万”决策经验，让大模型更“可靠”、更“高效”地服务一线场景</div>
+        <div class="mt-[60px] flex justify-between gap-[150px]">
+          <a href="https://chatcs.oss-rg-china-mainland.aliyuncs.com/chatcs/latest/SecMate-MacArm64-latest.zip"
+            download>
+            <span
+              class="flex items-center gap-[8px] rounded-[43px] bg-[#000] color-[#fff] py-[10px] px-[30px] h-[48px] text-[18px]">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px"
+                height="32px" viewBox="0 0 32 32" version="1.1">
+                <defs>
+                  <polygon id="path-1" points="0 0 32 0 32 32 0 32"></polygon>
+                </defs>
+                <g id="Yak-官网" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="官网首页配图" transform="translate(-174.000000, -68.000000)">
+                    <g id="编组-77" transform="translate(158.000000, 52.000000)">
+                      <g id="icon/面性/常用logo" transform="translate(16.000000, 16.000000)">
+                        <mask id="mask-2" fill="white">
+                          <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path
+                          d="M20.7626978,4.13636364 C19.5562887,4.18436364 18.083425,4.93 17.2124705,5.95013636 C16.4401068,6.83704545 15.7582887,8.26463636 15.9500159,9.64422727 C17.2870614,9.72413636 18.6666523,8.94904545 19.5082887,7.96095455 C20.3525159,6.93822727 20.9091523,5.53204545 20.7626978,4.13636364 Z M24.099925,25.0250909 C23.0958796,26.4739545 22.0570614,27.9334545 20.4164705,27.9600455 C18.8024705,27.9893636 18.2885159,27.0065909 16.445425,27.0065909 C14.6076523,27.0065909 14.0297432,27.9360455 12.5062887,27.9893636 C10.9296523,28.0533182 9.71778867,26.4072727 8.71101594,24.9638636 C6.64960685,22.0100909 5.06492503,16.5929091 7.19028867,12.9653636 C8.23701594,11.149 10.119925,9.99577273 12.1653796,9.96113636 C13.7101068,9.93181818 15.1776523,10.9998182 16.1151523,10.9998182 C17.0793796,10.9998182 18.8557887,9.71077273 20.7280614,9.9025 C21.5111978,9.93454545 23.708425,10.2274545 25.1226523,12.2595455 C25.013425,12.3341364 22.4965614,13.807 22.5258796,16.8033182 C22.5658341,20.4228182 25.7271523,21.6079545 25.7617887,21.6213182 C25.7326068,21.7118636 25.2584705,23.3445455 24.099925,25.0250909 Z"
+                          id="Fill-1" fill="#fff" mask="url(#mask-2)"></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              macOS
+            </span>
+          </a>
+          <a href="https://chatcs.oss-rg-china-mainland.aliyuncs.com/chatcs/latest/SecMate-WindowsAmd64-latest.zip"
+            download>
+            <span
+              class="flex items-center gap-[8px] rounded-[43px] bg-[#000] color-[#fff] py-[10px] px-[30px] h-[48px] text-[18px]">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="32px"
+                height="32px" viewBox="0 0 32 32" version="1.1">
+                <defs>
+                  <polygon id="path-1" points="0 0 32 0 32 32 0 32" />
+                </defs>
+                <g id="Yak-官网" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+                  <g id="官网首页配图" transform="translate(-1056.000000, -68.000000)">
+                    <g id="编组-77" transform="translate(158.000000, 52.000000)">
+                      <g id="组件/桌面端备份-3" transform="translate(882.000000, 0.000000)">
+                        <g id="icon/面性/常用logo" transform="translate(16.000000, 16.000000)">
+                          <mask id="mask-2" fill="white">
+                            <use xlinkHref="#path-1" />
+                          </mask>
+                          <g id="Clip-2" />
+                          <polygon id="路径" fill="#fff" mask="url(#mask-2)"
+                            points="26 6 16.2765446 7.56653675 16.2765446 14.7165336 26 14.7165336" />
+                          <polygon id="路径" fill="#fff" mask="url(#mask-2)"
+                            points="6 9.15049707 6 14.7141577 14.2197695 14.7141577 14.2197695 7.82630625" />
+                          <polygon id="路径" fill="#fff" mask="url(#mask-2)"
+                            points="16.2765446 16.2882183 16.2765446 23.4607866 26 25 26 16.2882183" />
+                          <polygon id="路径" fill="#fff" mask="url(#mask-2)"
+                            points="6 16.2882183 6 21.9013776 14.2197695 23.202997 14.2197695 16.2882183" />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              Windows
+            </span>
+          </a>
+        </div>
       </div>
     </div>
     <div class="wjaq-container mx-auto overflow-hidden">
