@@ -7,16 +7,16 @@ useSeoMeta({
 <template>
   <div class="mt-[86px]">
     <!-- 万径千机 banner -->
-    <div class="relative h-[411px] bg-[#1D83FF]">
+    <div class="relative h-[452px] bg-[#1D83FF]">
       <div class="bottom-left-bg absolute left-[0] top-[0]">
-        <NuxtImg src="/Images/light-bg-left.png" class="h-[411px]" />
+        <NuxtImg src="/Images/light-bg-left.png" class="h-[452px]" />
       </div>
       <div class="bottom-right-bg absolute right-[0] top-[0]">
-        <NuxtImg src="/Images/light-bg-right.png" class="h-[411px]" />
+        <NuxtImg src="/Images/light-bg-right.png" class="h-[452px]" />
       </div>
       <div class="wjaq-container mx-auto h-[100%] flex flex-col justify-center items-center">
-        <div class="text-[52px] color-[#fff]"><span class="font-bold-600">千机（ChatCS）</span>知识增强网络安全大模型</div>
-        <div class="text-[18px] mt-[20px] color-[#fff]">融合“千万”攻防知识，凝炼“百万”决策经验，让大模型更“可靠”、更“高效”地服务一线场景</div>
+        <div class="text-[52px] color-[#fff]"><span class="font-bold-600">万径千机（SecMate）</span>新一代网络安全高级AI智能体</div>
+        <div class="text-[18px] mt-[20px] color-[#fff]">具备自主规划、动态决策、工具调度、全程自主四大优势，能够7X24小时自主完成复杂网络安全任务，大幅提升人工效率</div>
         <div class="mt-[60px] flex justify-between gap-[150px]">
           <a href="https://chatcs.oss-rg-china-mainland.aliyuncs.com/chatcs/latest/SecMate-MacArm64-latest.zip"
             download>
