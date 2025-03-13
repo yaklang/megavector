@@ -1,4 +1,12 @@
 <script setup>
+useHead({
+  meta: [
+    { property: 'og:title', content: '万径安全' },
+    { property: 'og:description', content: '“公司以“AI+YAK”为企业核心战略，专注于网络安全基础设施和智能化技术研究，打造了首款网络安全语言YAK和网络安全高级AI智能体万径千机两大核心。”' },
+    { name: 'twitter:title', content: '万径安全' },
+    { name: 'twitter:description', content: '“公司以“AI+YAK”为企业核心战略，专注于网络安全基础设施和智能化技术研究，打造了首款网络安全语言YAK和网络安全高级AI智能体万径千机两大核心。”' },
+  ]
+})
 import SwiperCore, { Autoplay, Navigation, Pagination } from 'swiper'
 SwiperCore.use([Autoplay, Navigation, Pagination])
 
@@ -37,7 +45,7 @@ const newBannerBottomList = computed(() => {
 </script>
 
 <template>
-  <Title>首页</Title>
+  <Title>万径安全</Title>
   <div class="mt-[86px]">
     <!-- 头部轮播 -->
     <div class="top-swiper-wrap h-[560px] bg-[#F4FAFF]">
