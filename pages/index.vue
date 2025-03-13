@@ -43,10 +43,10 @@ const newBannerBottomList = computed(() => {
     <div class="top-swiper-wrap h-[560px] bg-[#F4FAFF]">
       <swiper class="h-[100%]" loop :speed="1500" :autoplay="{ disableOnInteraction: false, delay: 5000 }"
         :pagination="{ el: '.swiper-pagination', clickable: true }" :navigation="{
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      }
-        ">
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        }
+          ">
         <swiper-slide>
           <div class="h-[100%] bg-no-repeat overflow-hidden"
             :style="{ backgroundImage: 'url(/Images/wanjing-banner.png)', backgroundPosition: 'bottom', backgroundSize: 'contain' }">
@@ -63,10 +63,30 @@ const newBannerBottomList = computed(() => {
 
         <swiper-slide>
           <div class="h-[100%] bg-no-repeat bg-positon-center"
+            :style="{ backgroundImage: 'url(/Images/qj_banner.png)', backgroundPosition: '50% center', backgroundSize: 'contain' }">
+            <div class="wjaq-container h-[100%] mx-auto flex items-center">
+              <div class='text-center'>
+                <div class="text-center text-[35px] font-bold-600 w-[880px]">
+                  <span class="color-[#0070FF]">万径千机（SecMate）</span>新一代网络安全高级AI智能体
+                </div>
+                <div class="text-left text-[18px] mt-[10px] leading-[30px] w-[880px]">
+                  具备自主规划、动态决策、工具调度、全程自主四大优势，能够7X24小时自主完成复杂网络安全任务，大幅提升人工效率。
+                </div>
+                <NuxtLink to="/safetyProduct/qjLargeModel"><span
+                    class="inline-block rounded-50 bg-[#000] color-[#fff] px-[10px] w-[162px] h-[53px] text-[20px] leading-[53px] text-center mt-[50px]">
+                    了解详情
+                  </span></NuxtLink>
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+
+        <swiper-slide>
+          <div class="h-[100%] bg-no-repeat bg-positon-center"
             :style="{ backgroundImage: 'url(/Images/solution-banner.png)', backgroundPosition: '50% center', backgroundSize: 'contain' }">
             <div class="wjaq-container h-[100%] mx-auto flex items-center">
               <div class='text-center'>
-                <div class="text-center text-[40px] font-bold-600 w-[660px]">
+                <div class="text-center text-[35px] font-bold-600 w-[660px]">
                   <span class="color-[#0070FF]">CDSL-YAK</span>企业安全建设解决方案
                 </div>
                 <div class="text-left text-[18px] mt-[10px] leading-[30px] w-[660px]">
@@ -86,7 +106,7 @@ const newBannerBottomList = computed(() => {
             :style="{ backgroundImage: 'url(/Images/qualityImproScheme-banner.png)', backgroundPosition: '50% center', backgroundSize: 'contain' }">
             <div class="wjaq-container h-[100%] mx-auto flex items-center">
               <div class='text-center'>
-                <div class="text-center text-[40px] font-bold-600 w-[600px]">
+                <div class="text-center text-[35px] font-bold-600 w-[600px]">
                   渗透测试质量提升方案
                 </div>
                 <div class="text-left text-[18px] mt-[10px] leading-[30px] w-[600px]">
@@ -95,7 +115,7 @@ const newBannerBottomList = computed(() => {
                 <div class="text-left text-[18px] mt-[10px] leading-[30px] w-[600px] mb-[25px]">
                   渗透测试能够直观地让管理人员知道自己网络所面临的问题，从而帮助组织提前采取防范措施，避免或者减轻可能发生的损失。
                 </div>
-                <div class="text-center color-[#0070FF] text-[35px]">渗透测试是一种非常专业的安全服务。</div>
+                <div class="text-center color-[#0070FF] text-[30px]">渗透测试是一种非常专业的安全服务。</div>
                 <NuxtLink to="/solution/qualityImproScheme"><span
                     class="inline-block rounded-50 bg-[#000] color-[#fff] px-[10px] w-[162px] h-[53px] text-[20px] leading-[53px] text-center mt-[50px]">
                     了解详情
@@ -110,7 +130,7 @@ const newBannerBottomList = computed(() => {
             :style="{ backgroundImage: 'url(/Images/xiaozhi-banner.png)', backgroundPosition: '50% center', backgroundSize: 'contain' }">
             <div class="wjaq-container h-[100%] mx-auto flex items-center">
               <div class='text-center'>
-                <div class="text-center text-[40px] font-bold-600 w-[640px]">
+                <div class="text-center text-[35px] font-bold-600 w-[640px]">
                   <span class="color-[#0070FF]">小智</span>新一代自动化渗透测试平台
                 </div>
                 <div class="text-left text-[18px] mt-[10px] leading-[30px] w-[640px]">
@@ -130,33 +150,13 @@ const newBannerBottomList = computed(() => {
             :style="{ backgroundImage: 'url(/Images/yakit-banner.png)', backgroundPosition: '50% center', backgroundSize: 'contain' }">
             <div class="wjaq-container h-[100%] mx-auto flex items-center">
               <div class='text-center'>
-                <div class="text-center text-[40px] font-bold-600 w-[610px]">
+                <div class="text-center text-[35px] font-bold-600 w-[610px]">
                   <span class="color-[#0070FF]">Yakit</span>交互式应用安全测试平台
                 </div>
                 <div class="text-left text-[18px] mt-[10px] leading-[30px] w-[610px]">
                   为Yaklang编写了gRPC服务器，并基于gRPC服务器构建了客户端，通过GUI操控引擎能力，集成Yaklang的所有能力。
                 </div>
                 <NuxtLink to="/safetyProduct/securityTestPlatform"><span
-                    class="inline-block rounded-50 bg-[#000] color-[#fff] px-[10px] w-[162px] h-[53px] text-[20px] leading-[53px] text-center mt-[50px]">
-                    了解详情
-                  </span></NuxtLink>
-              </div>
-            </div>
-          </div>
-        </swiper-slide>
-
-        <swiper-slide>
-          <div class="h-[100%] bg-no-repeat bg-positon-center"
-            :style="{ backgroundImage: 'url(/Images/qj_banner.png)', backgroundPosition: '50% center', backgroundSize: 'contain' }">
-            <div class="wjaq-container h-[100%] mx-auto flex items-center">
-              <div class='text-center'>
-                <div class="text-left text-[40px] font-bold-600 w-[770px]">
-                  <span class="color-[#0070FF]">千机（ChatCS）</span>知识增强网络安全大模型
-                </div>
-                <div class="text-left text-[18px] mt-[10px] leading-[30px] w-[770px]">
-                  融合“千万”攻防知识，凝炼“百万”决策经验，让大模型更“可靠”、更“高效”地服务一线场景。
-                </div>
-                <NuxtLink to="/safetyProduct/qjLargeModel"><span
                     class="inline-block rounded-50 bg-[#000] color-[#fff] px-[10px] w-[162px] h-[53px] text-[20px] leading-[53px] text-center mt-[50px]">
                     了解详情
                   </span></NuxtLink>
@@ -196,13 +196,13 @@ const newBannerBottomList = computed(() => {
         <div class="text-[40px] text-center text-[#fff] my-[70px]">他们也选择万径</div>
         <swiper class="h-[160px]" :speed="1500" loop :autoplay="{ disableOnInteraction: false, delay: 5000 }"
           :navigation="{
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      }
-        ">
-          <swiper-slide v-for='( item, i ) in  newBannerBottomList ' :key='i'>
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          }
+            ">
+          <swiper-slide v-for='(item, i) in newBannerBottomList' :key='i'>
             <el-row :gutter="0" justify="space-evenly" class="h-[100%] items-center bottom-swiper-row px-[120px]">
-              <el-col :span="6" v-for="( page, j ) in  item " :key="j"
+              <el-col :span="6" v-for="(page, j) in item" :key="j"
                 class="h-[66px] w-[230px] flex items-center justify-center overflow-hidden rounded-[5px] px-[9px]">
                 <NuxtImg :src="page.imgUrl" class="h-[100%]" />
               </el-col>

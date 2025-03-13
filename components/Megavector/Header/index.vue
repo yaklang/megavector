@@ -16,12 +16,12 @@
         <div class="dropdown relative ml-[80px] text-[18px]">
           <NuxtLink to="/safetyProduct">产品</NuxtLink>
           <ul
-            class="dropdown-content safetyProduct-dropdown-content absolute left-[0px] w-[340px] h-[0px] overflow-hidden bg-[#fff] left-[0px] top-[55px] px-[0px] text-[14px] rounded-[3px]">
-            <NuxtLink to="/safetyProduct/xiaozhi">
+            class="dropdown-content safetyProduct-dropdown-content absolute left-[0px] w-[360px] h-[0px] overflow-hidden bg-[#fff] left-[0px] top-[55px] px-[0px] text-[14px] rounded-[3px]">
+            <a href="https://www.yaklang.com/" target="_blank">
               <li class="cursor-pointer pl-[15px] h-[35px] leading-[35px]">
-                小智：新一代自动化渗透测试平台
+                YAK：网络安全领域编程语言
               </li>
-            </NuxtLink>
+            </a>
             <NuxtLink to="/safetyProduct/securityTestPlatform">
               <li class="cursor-pointer pl-[15px] h-[35px] leading-[35px]">
                 Yakit：交互式应用安全测试平台
@@ -29,14 +29,14 @@
             </NuxtLink>
             <NuxtLink to="/safetyProduct/qjLargeModel">
               <li class="cursor-pointer pl-[15px] h-[35px] leading-[35px]">
-                千机（ChatCS）：知识增强网络安全大模型应用
+                万径千机（SecMate）：新一代网络安全高级AI智能体
               </li>
             </NuxtLink>
-            <a href="https://www.yaklang.com/" target="_blank">
+            <NuxtLink to="/safetyProduct/xiaozhi">
               <li class="cursor-pointer pl-[15px] h-[35px] leading-[35px]">
-                YAK：网络安全领域编程语言
+                小智：新一代自动化渗透测试平台
               </li>
-            </a>
+            </NuxtLink>
           </ul>
         </div>
         <div class="dropdown relative ml-[70px] text-[18px]">
