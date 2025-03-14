@@ -1,14 +1,4 @@
 <script setup>
-useSeoMeta({
-  title: 'Yakit 交互式应用安全测试平台',
-})
-
-const coreFunList3 = ref([
-  { imgUrl: "/Images/sjzzgl.png", title: "数据追踪和管理", desc: "每个项目的数据都被自动记录并隔离存储，使团队能够针对特定项目轻松地回溯和分析历史数据。", width: 130 },
-  { imgUrl: "/Images/sjsczlx.png", title: "数据上传至离线Server", desc: "Yakit支持将项目数据库自动上传至统一的离线Server。这不仅为数据提供了一个安全的备份，也使得团队可以在需要时随时访问和分析这些数据。", width: 100 },
-  { imgUrl: "/Images/kshzsbg.png", title: "可视化展示与报告", desc: "Yakit将分析结果通过直观的图表和报告形式呈现，使用户能够快速理解和评估当前的安全状况。提供可定制的仪表板和报告，满足不同用户的特定需求，提供关键信息和洞察。", width: 130 },
-  { imgUrl: "/Images/sjfyxt.png", title: "数据复用与协同", desc: "Yakit支持分析得到的数据提供给其他安全设备和平台，实现跨系统的信息共享和协同。", width: 120 },
-])
 </script>
 
 <template>

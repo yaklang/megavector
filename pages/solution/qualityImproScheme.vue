@@ -1,7 +1,4 @@
 <script setup>
-useSeoMeta({
-  title: '渗透测试质量提升方案',
-})
 </script>
 
 <template>

@@ -1,7 +1,4 @@
 <script setup>
-useSeoMeta({
-  title: '关于我们',
-})
 const router = useRouter()
 
 watchEffect(() => {

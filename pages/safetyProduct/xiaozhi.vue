@@ -1,7 +1,4 @@
 <script setup>
-useSeoMeta({
-  title: '小智-新一代自动化渗透测试平台',
-})
 // 核心技术数据
 const coreTechnologyList = ref([
   { imgUrl: "/Images/spider.png", title: "立体化漏洞情报知识图谱构建技术", desc: "通过对全网已知漏洞情报进行整合和分析，构建了对漏洞作用目标、分析情报、时空热度等多维立体描述的漏洞情报知识图谱，为小智提供可解释的漏洞处置辅助決策能力。" },

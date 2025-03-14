@@ -1,7 +1,4 @@
 <script setup>
-useSeoMeta({
-  title: 'CDSL-YAK：企业安全建设解决方案',
-})
 </script>
 
 <template>
