@@ -2,7 +2,6 @@
 </script>
 
 <template>
-  <Title>安全服务</Title>
   <div class="mt-[86px]">
     <!-- 安全服务 banner -->
     <div class="h-[560px] bg-[#F4FAFF]">
