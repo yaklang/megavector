@@ -1,6 +1,15 @@
 <script setup>
-const { data: version } = useFetch('https://chatcs.oss-rg-china-mainland.aliyuncs.com/chatcs/latest/version.txt', {
-  retry: 3
+const { data: version, refresh } = useFetch('https://chatcs.oss-rg-china-mainland.aliyuncs.com/chatcs/latest/version.txt', {
+  headers: {
+    "Cache-Control": "no-cache, no-store, must-revalidate",
+    Pragma: "no-cache",
+  },
+  key: "latest-version", // 让 Nuxt 识别数据，不会重复缓存
+  retry: 3, // 失败自动重试 3 次
+})
+// 组件挂载后主动刷新数据（确保客户端拿到最新数据）
+onMounted(() => {
+  refresh()
 })
 </script>
 
