@@ -227,7 +227,6 @@ const newBannerBottomList = computed(() => {
       </div>
     </div>
   </div>
-  <MegavectorOnlineConsultation></MegavectorOnlineConsultation>
 </template>
 
 <style lang="scss" scoped>
