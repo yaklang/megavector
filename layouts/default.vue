@@ -3,5 +3,6 @@
     <MegavectorHeader></MegavectorHeader>
     <slot />
     <MegavectorFooter></MegavectorFooter>
+    <MegavectorOnlineConsultation></MegavectorOnlineConsultation>
   </div>
 </template>

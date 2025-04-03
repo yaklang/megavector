@@ -122,10 +122,11 @@ onMounted(() => {
         </div>
         <div class="flex justify-between mb-[100px]">
           <div class="w-[28%]">
-            <div class="font-bold-600 mb-[25px] text-center text-[25px]">领域知识增强</div>
-            <div class="color-[#868686] mb-[122px] leading-[30px]">千机是一款使用RLHF优化并利用知识图谱进行领域知识增强的垂直领域大语言模型应用。</div>
+            <div class="font-bold-600 mb-[25px] text-center text-[25px]">动态强化学习</div>
+            <div class="color-[#868686] mb-[100px] leading-[30px]">
+              千机助手通过对接入模型进行动态强化学习及本地任务执行经验积累，增强了模型在复杂任务场景中的决策稳定性和准确率。</div>
             <div class="text-center">
-              <NuxtImg src="/Images/qj_lyzszq.png" class="w-[280px]" />
+              <NuxtImg src="/Images/qj_dtqhxx.png" class="w-[260px]" />
             </div>
           </div>
           <div class="w-[28%]">
@@ -136,11 +137,12 @@ onMounted(() => {
             </div>
           </div>
           <div class="w-[28%]">
-            <div class="font-bold-600 mb-[25px] text-center text-[25px]">精准响应与约束</div>
-            <div class="color-[#868686] mb-[122px] leading-[30px]">千机不仅生成回答，还利用背景知识约束生成的文本，缩小计算响应与背景知识的偏离度，确保回答准确无误。
+            <div class="font-bold-600 mb-[25px] text-center text-[25px]">多接口自主交互决策</div>
+            <div class="color-[#868686] mb-[70px] leading-[30px]">干机支持标准MCP服务、WEB
+              API/命令行执行等多种第三方工具接入方式，极大扩展了模型的任务场景，使其具备了任务决策到执行的完整闭环。
             </div>
             <div class="text-center">
-              <NuxtImg src="/Images/qj_jzxyyys.png" class="w-[245px]" />
+              <NuxtImg src="/Images/qj_djkzzjhjc.png" class="w-[300px]" />
             </div>
           </div>
         </div>
@@ -195,46 +197,58 @@ onMounted(() => {
               <path d="M4.47035e-07 18L18 18L18 4.47035e-07" stroke="#0070FF" stroke-width="6" />
             </svg>
           </div>
-          <!-- 漏洞情报 -->
           <div class="flex justify-between items-center px-[10px] mb-[100px]">
             <div data-aos="fade-right">
               <NuxtImg src="/Images/qj_ldqb.png" class="h-[421px]" />
             </div>
             <div data-aos="fade-left" class="w-[520px]">
-              <div class="text-[32px] font-bold-600 mb-[20px]">漏洞情报</div>
-              <div class="text-[18px] font-bold-600 mb-[18px]">外文漏洞译制</div>
-              <div class="text-[16px] color-[#646363] mb-[37px] leading-[30px]">
-                情报源涵盖CVE、Github、EXploitDB、社区文章等。可读性已与人类安全专家译制效果无任何差异。</div>
-              <div class="text-[18px] font-bold-600 mb-[18px]">漏洞情报问答</div>
-              <div class="text-[16px] font-bold-600 mb-[12px]">CVE漏洞情报</div>
-              <div class="text-[16px] color-[#646363] mb-[20px] leading-[30px]">
-                对于特定漏洞的回答正确率高达92.1%（测试集验证结果），并能够在多轮人机交互过程中提供更详细更有价值的漏洞情报，且可解释性与稳定性很高。
+              <div class="text-[32px] font-bold-600 mb-[20px]">智能任务规划引擎</div>
+              <div class="text-[16px] color-[#646363] mb-[37px] leading-[30px] inline-block text-justify">
+                系统内置智能解析引擎，可对复杂任务进行多层级目标拆解与路径建模。基于任务拓扑关系自动生成最优执行序列，支持Gantt式进度管理及里程碑预警机制，确保全流程执行可控性。通过动态工作分解结构（WBS）技术，实现任务颗粒度与执行资源的精准匹配。
               </div>
-              <div class="text-[16px] font-bold-600 mb-[12px]">通用漏洞情报</div>
-              <div class="text-[16px] color-[#646363] leading-[30px]">
-                对于安全场景中的通用知识掌握，万径千机水平已趋近中高级安全专家，并随着不断的训练与优化，其能力还将得到更多涌现。</div>
+              <div class="text-[32px] font-bold-600 mb-[20px]">全栈式工具链协同</div>
+              <div class="text-[16px] color-[#646363] mb-[20px] leading-[30px] inline-block text-justify">
+                提供开放式工具集成框架，支持API/MCP无缝接入搜索引擎、数据分析平台及自动化开发环境。特别针对网络安全领域预置行业知识库，包含Nmap、Metasploit等200+安全工具智能调度策略，支持参数自优化与工具链组合编排。开发者可通过插件架构快速扩展自定义工具模块。
+              </div>
             </div>
           </div>
-          <!-- 辅助决策 -->
           <div class="flex justify-between items-center px-[10px]">
             <div data-aos="fade-right" class="w-[520px]">
-              <div class="text-[32px] font-bold-600 mb-[20px]">辅助决策</div>
-              <div class="mb-[15px]">
-                <span class="font-bold-600">应急响应辅助决策 — </span>
-                <span class="color-[#646363]">快速出具正确的应急响应方案。</span>
+              <div class="text-[32px] font-bold-600 mb-[20px]">自适应执行中枢</div>
+              <div class="text-[16px] color-[#646363] mb-[37px] leading-[30px] inline-block text-justify">
+                采用实时监控-评估-决策（OODA）闭环架构，具备异常检测与智能纠偏能力。执行过程内置验证节点，当出现依赖缺失（如Python库）、逻辑错误或环境异常时，系统可自主完成环境修复、方案迭代等自适应操作，确保任务持续演进。
               </div>
-              <div class="mb-[15px]">
-                <span class="font-bold-600">社工诱饵生成 — </span>
-                <span class="color-[#646363] leading-[30px]">快速生成大量内容差异的社工诱饵，帮助企业攻防演习过程中考察员工意识。</span>
-              </div>
-              <div class="mb-[15px]">
-                <span class="font-bold-600">WEBSHELL研判 — </span>
-                <span class="color-[#646363] leading-[30px]">能基于代码逻辑及其最终实现功能，识别市面上绝大多数的“免杀”WebShell，供安全专家决策参考。</span>
+              <div class="text-[32px] font-bold-600 mb-[20px]">双工协作控制台</div>
+              <div class="text-[16px] color-[#646363] mb-[20px] leading-[30px] inline-block text-justify">
+                创新性人机协同架构支持全流程透明可控，专家用户可通过指令注入、策略覆写、沙盒调试等多种介入模式实时引导任务进程。系统配备意图理解引擎，可精准解析自然语言指令，实现策略层与执行层的双向交互验证。
               </div>
             </div>
             <div data-aos="fade-left">
               <NuxtImg src="/Images/qj_fzjc.png" class="w-[400px]" />
             </div>
+          </div>
+        </div>
+        <!-- 场景应用演示 -->
+        <div class="mt-[200px]">
+          <div class="relative py-[15px] px-[40px] mb-[120px] mx-auto w-[340px]">
+            <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 21 21" fill="none">
+              <path d="M21 3H3V21" stroke="#0070FF" stroke-width="6" />
+            </svg>
+            <div class="text-[40px] text-center font-bold-600">
+              场景应用演示
+            </div>
+            <svg class="absolute right-[0] bottom-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 21 21" fill="none">
+              <path d="M4.47035e-07 18L18 18L18 4.47035e-07" stroke="#0070FF" stroke-width="6" />
+            </svg>
+          </div>
+          <div class="text-[20px] text-center font-bold-600">实战推演面对攻击IP时，「万径千机」从攻击溯源到自动封禁的全过程</div>
+          <div class="mt-[40px] text-center">
+            <video controls width="1040px">
+              <source src="/Videos/qj_video.mp4" type="video/mp4" />
+              您的浏览器不支持 video 标签。
+            </video>
           </div>
         </div>
         <!-- POC代码生成 -->
@@ -303,7 +317,6 @@ onMounted(() => {
       </div>
     </div>
   </div>
-  <MegavectorOnlineConsultation></MegavectorOnlineConsultation>
 </template>
 
 <style lang="scss" scoped>

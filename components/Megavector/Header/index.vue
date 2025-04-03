@@ -1,8 +1,29 @@
 <script setup>
+const updateHeaderPosition = () => {
+  const header = document.querySelector('.header');
+  if (header) {
+    header.style.transform = `translateX(-${window.scrollX}px)`;
+    header.style.width = `calc(100% + ${window.scrollX}px)`;
+  }
+};
+
+onMounted(() => {
+  nextTick(() => {
+    if (typeof window !== 'undefined') {
+      window.addEventListener('scroll', updateHeaderPosition);
+    }
+  });
+});
+
+onUnmounted(() => {
+  if (typeof window !== 'undefined') {
+    window.removeEventListener('scroll', updateHeaderPosition);
+  }
+});
 </script>
 
 <template>
-  <div class="header fixed top-[0px] left-[0px] right-[0px] bg-[#fff] h-[86px]">
+  <div class="header fixed top-[0px] left-[0px] bg-[#fff] h-[86px]">
     <div class="wjaq-container mx-auto bg-[#fff] flex justify-between items-center">
       <div class="header-left mt-[10px]">
         <NuxtLink to="/">
@@ -69,6 +90,7 @@
 <style lang="scss" scoped>
 .header {
   z-index: 99999;
+  width: 100%;
 }
 
 .dropdown {
