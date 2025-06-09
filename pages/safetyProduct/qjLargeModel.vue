@@ -28,7 +28,7 @@ onMounted(() => {
         <div class="text-[18px] mt-[20px] color-[#fff]">
           具备自主规划、动态决策、工具调度、全程自主四大优势，能够7X24小时自主完成复杂网络安全任务，大幅提升人工效率</div>
         <div class="mt-[60px] flex justify-between gap-[150px]">
-          <a :href="`https://chatcs.oss-rg-china-mainland.aliyuncs.com/chatcs/${version?.trim()}/secmate-darwin-arm64-${version?.trim()}.zip`"
+          <a :href="`https://chatcs.oss-rg-china-mainland.aliyuncs.com/chatcs/${version?.trim()}/secmate-darwin-arm64-万径千机-${version?.trim()}.zip`"
             download>
             <div class="rounded-[43px] bg-[#000] color-[#fff] py-[10px] px-[30px]">
               <div class="flex items-center gap-[10px]">
@@ -61,7 +61,7 @@ onMounted(() => {
               </div>
             </div>
           </a>
-          <a :href="`https://chatcs.oss-rg-china-mainland.aliyuncs.com/chatcs/${version?.trim()}/secmate-windows-amd64-${version?.trim()}.zip`"
+          <a :href="`https://chatcs.oss-rg-china-mainland.aliyuncs.com/chatcs/${version?.trim()}/secmate-windows-amd64-万径千机-${version?.trim()}.zip`"
             download>
             <div class="rounded-[43px] bg-[#000] color-[#fff] py-[10px] px-[30px]">
               <span class="flex items-center gap-[10px]">
