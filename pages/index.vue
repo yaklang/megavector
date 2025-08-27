@@ -10,24 +10,43 @@ SwiperCore.use([Autoplay, Navigation, Pagination])
 const bannerBottomList = [
   { imgUrl: "/Images/gjdw.png" },
   { imgUrl: "/Images/zgnfdw.png" },
-  { imgUrl: "/Images/zghnjtyxgs.png" },
-  { imgUrl: "/Images/zgdtjtgs.png" },
-  { imgUrl: "/Images/zgh.png" },
-  { imgUrl: "/Images/zglt.png" },
+  { imgUrl: "/Images/zgsy.png" },
+  { imgUrl: "/Images/zgsh.png" },
+
+  { imgUrl: "/Images/gjgw.png" },
   { imgUrl: "/Images/zgdx.png" },
-  { imgUrl: "/Images/zgjsyh.png" },
-  { imgUrl: "/Images/zgmsyh.png" },
-  { imgUrl: "/Images/gwydjt.png" },
-  { imgUrl: "/Images/hxyh.png" },
+  { imgUrl: "/Images/zgyd.png" },
+  { imgUrl: "/Images/zglt.png" },
+
+  { imgUrl: "/Images/zgdz.png" },
+  { imgUrl: "/Images/zgdk.png" },
+  { imgUrl: "/Images/gadyyjs.png" },
+  { imgUrl: "/Images/gass.png" },
+
+  { imgUrl: "/Images/gjxxjsaqyjzx.png" },
   { imgUrl: "/Images/zgxxaqcpzx.png" },
-  { imgUrl: "/Images/hnsgat.png" },
-  { imgUrl: "/Images/gabyjs.png" },
-  { imgUrl: "/Images/zhrmghgslb.png" },
-  { imgUrl: "/Images/zhrmghgjtysb.png" },
-  { imgUrl: "/Images/xxgcdx.png" },
-  { imgUrl: "/Images/zzdx.png" },
-  { imgUrl: "/Images/cdxxgcdx.png" },
+  { imgUrl: "/Images/zggcwlyjy.png" },
+  { imgUrl: "/Images/zgrjcpzx.png" },
+
+  { imgUrl: "/Images/zggsyh.png" },
+  { imgUrl: "/Images/zgnyyh.png" },
+  { imgUrl: "/Images/zgyh.png" },
+  { imgUrl: "/Images/zgjsyh.png" },
+
+  { imgUrl: "/Images/jtyh.png" },
+  { imgUrl: "/Images/zsyh.png" },
+  { imgUrl: "/Images/zgmsyh.png" },
+  { imgUrl: "/Images/zggdyh.png" },
+
+  { imgUrl: "/Images/sd.png" },
+  { imgUrl: "/Images/zghg.png" },
+  { imgUrl: "/Images/hnga.png" },
+  { imgUrl: "/Images/zgjrrzzx.png" },
+
   { imgUrl: "/Images/dzkjdx.png" },
+  { imgUrl: "/Images/zgkxy.png" },
+  { imgUrl: "/Images/zgkxjsdx.png" },
+  { imgUrl: "/Images/zzdx.png" }
 ]
 const newBannerBottomList = computed(() => {
   let pages = []
@@ -58,7 +77,67 @@ const newBannerBottomList = computed(() => {
                 <div class="text-left text-[60px] font-bold-600">
                   重新定义<span class="color-[#0070FF]">安全能力融合</span>
                 </div>
-                <div class="text-[22px] leading-[30px]">立足于攻防一线，为企业带来全新的安全体系建设思路。</div>
+                <div class="text-[22px] leading-[30px]">让世界更安全，让安全更简单</div>
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+
+        <swiper-slide>
+          <div class="h-[100%] bg-no-repeat bg-positon-center"
+            :style="{ backgroundImage: 'url(/Images/solution-banner.png)', backgroundPosition: '50% center', backgroundSize: 'contain' }">
+            <div class="wjaq-container h-[100%] mx-auto flex items-center">
+              <div class='text-left'>
+                <div class="text-[35px] font-bold-600 w-[450px] leading-[40px]">
+                  国内外首创的全国产化网络安全开发环境——<span class="color-[#0070FF]">YAK</span>
+                </div>
+                <div class="text-[18px] mt-[10px] leading-[30px] w-[540px]">
+                  完全国产化、自主可控、国内外首创。荣获信息通信领域十大科技进展，重塑中国网络安全产业生产力。
+                </div>
+                <NuxtLink to="https://www.yaklang.com" target="_blank"><span
+                    class="inline-block rounded-50 bg-[#000] color-[#fff] px-[10px] w-[162px] h-[53px] text-[20px] leading-[53px] text-center mt-[50px]">
+                    了解详情
+                  </span></NuxtLink>
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+
+        <swiper-slide>
+          <div class="h-[100%] bg-no-repeat bg-positon-center"
+            :style="{ backgroundImage: 'url(/Images/yakit-banner.png)', backgroundPosition: '50% center', backgroundSize: 'contain' }">
+            <div class="wjaq-container h-[100%] mx-auto flex items-center">
+              <div class='text-left'>
+                <div class="text-[35px] font-bold-600 w-[454px] leading-[40px]">
+                  国产自主可控的交互式应用安全测试平台——<span class="color-[#0070FF]">Yakit</span>
+                </div>
+                <div class="text-[18px] mt-[10px] leading-[30px] w-[741px]">
+                  所有工具能力均采用国产编程语言 YAK 完成，完全自主可控。
+                </div>
+                <NuxtLink to="/safetyProduct/securityTestPlatform"><span
+                    class="inline-block rounded-50 bg-[#000] color-[#fff] px-[10px] w-[162px] h-[53px] text-[20px] leading-[53px] text-center mt-[50px]">
+                    了解详情
+                  </span></NuxtLink>
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+
+        <swiper-slide>
+          <div class="h-[100%] bg-no-repeat bg-positon-center"
+            :style="{ backgroundImage: 'url(/Images/iRify-banner.png)', backgroundPosition: '50% center', backgroundSize: '1200px' }">
+            <div class="wjaq-container h-[100%] mx-auto flex items-center">
+              <div class='text-left'>
+                <div class="text-[35px] font-bold-600 w-[454px] leading-[40px]">
+                  基于代码建模的大型项目代码审计平台——<span class="color-[#0070FF]">IRify</span>
+                </div>
+                <div class="text-[18px] mt-[10px] leading-[30px] w-[504px]">
+                  一款领先于传统SAST产品的创新型安全分析平台，深度解析复杂代码结构，涵盖多语言场景并提供精细的数据流和控制流分析能力。
+                </div>
+                <NuxtLink to="/safetyProduct/iRify"><span
+                    class="inline-block rounded-50 bg-[#000] color-[#fff] px-[10px] w-[162px] h-[53px] text-[20px] leading-[53px] text-center mt-[50px]">
+                    了解详情
+                  </span></NuxtLink>
               </div>
             </div>
           </div>
@@ -68,12 +147,12 @@ const newBannerBottomList = computed(() => {
           <div class="h-[100%] bg-no-repeat bg-positon-center"
             :style="{ backgroundImage: 'url(/Images/qj_banner.png)', backgroundPosition: '50% center', backgroundSize: 'contain' }">
             <div class="wjaq-container h-[100%] mx-auto flex items-center">
-              <div class='text-center'>
-                <div class="text-center text-[35px] font-bold-600 w-[880px]">
-                  <span class="color-[#0070FF]">万径千机（SecMate）</span>新一代网络安全高级AI智能体
+              <div class="text-left">
+                <div class="text-[35px] font-bold-600 w-[508px] leading-[40px]">
+                  新一代网络安全高级 AI 智能体——<span class="color-[#0070FF]">万径千机</span>
                 </div>
-                <div class="text-left text-[18px] mt-[10px] leading-[30px] w-[880px]">
-                  具备自主规划、动态决策、工具调度、全程自主四大优势，能够7X24小时自主完成复杂网络安全任务，大幅提升人工效率。
+                <div class="text-[18px] mt-[10px] leading-[30px] w-[627px]">
+                  致力于推动网络安全攻防走向智能化、无人化，具备自主规划、动态决策、工具调度、全程自主四大优势，7X24小时自主完成复杂网络安全任务，大幅提升人工效率。
                 </div>
                 <NuxtLink to="/safetyProduct/qjLargeModel"><span
                     class="inline-block rounded-50 bg-[#000] color-[#fff] px-[10px] w-[162px] h-[53px] text-[20px] leading-[53px] text-center mt-[50px]">
@@ -86,57 +165,13 @@ const newBannerBottomList = computed(() => {
 
         <swiper-slide>
           <div class="h-[100%] bg-no-repeat bg-positon-center"
-            :style="{ backgroundImage: 'url(/Images/solution-banner.png)', backgroundPosition: '50% center', backgroundSize: 'contain' }">
-            <div class="wjaq-container h-[100%] mx-auto flex items-center">
-              <div class='text-center'>
-                <div class="text-center text-[35px] font-bold-600 w-[660px]">
-                  <span class="color-[#0070FF]">CDSL-YAK</span>企业安全建设解决方案
-                </div>
-                <div class="text-left text-[18px] mt-[10px] leading-[30px] w-[660px]">
-                  以YAK语言为核心，以衍生产品为配套。通过构建底层安全能力基座，实现低位安全产品的高效集成，协助企业进行网络安全体系建设。
-                </div>
-                <NuxtLink to="/solution/constructionScheme"><span
-                    class="inline-block rounded-50 bg-[#000] color-[#fff] px-[10px] w-[162px] h-[53px] text-[20px] leading-[53px] text-center mt-[50px]">
-                    了解详情
-                  </span></NuxtLink>
-              </div>
-            </div>
-          </div>
-        </swiper-slide>
-
-        <swiper-slide>
-          <div class="h-[100%] bg-no-repeat bg-positon-center"
-            :style="{ backgroundImage: 'url(/Images/qualityImproScheme-banner.png)', backgroundPosition: '50% center', backgroundSize: 'contain' }">
-            <div class="wjaq-container h-[100%] mx-auto flex items-center">
-              <div class='text-center'>
-                <div class="text-center text-[35px] font-bold-600 w-[600px]">
-                  渗透测试质量提升方案
-                </div>
-                <div class="text-left text-[18px] mt-[10px] leading-[30px] w-[600px]">
-                  渗透测试，也被称为渗透性评估或者攻击模拟，是完全模拟黑客可能使用的攻击技术和漏洞发现技术，对目标系统的安全作深入的探测，发现系统最脆弱的环节。
-                </div>
-                <div class="text-left text-[18px] mt-[10px] leading-[30px] w-[600px] mb-[25px]">
-                  渗透测试能够直观地让管理人员知道自己网络所面临的问题，从而帮助组织提前采取防范措施，避免或者减轻可能发生的损失。
-                </div>
-                <div class="text-center color-[#0070FF] text-[30px]">渗透测试是一种非常专业的安全服务。</div>
-                <NuxtLink to="/solution/qualityImproScheme"><span
-                    class="inline-block rounded-50 bg-[#000] color-[#fff] px-[10px] w-[162px] h-[53px] text-[20px] leading-[53px] text-center mt-[50px]">
-                    了解详情
-                  </span></NuxtLink>
-              </div>
-            </div>
-          </div>
-        </swiper-slide>
-
-        <swiper-slide>
-          <div class="h-[100%] bg-no-repeat bg-positon-center"
             :style="{ backgroundImage: 'url(/Images/xiaozhi-banner.png)', backgroundPosition: '50% center', backgroundSize: 'contain' }">
             <div class="wjaq-container h-[100%] mx-auto flex items-center">
-              <div class='text-center'>
-                <div class="text-center text-[35px] font-bold-600 w-[640px]">
-                  <span class="color-[#0070FF]">小智</span>新一代自动化渗透测试平台
+              <div class='text-left'>
+                <div class="text-[35px] font-bold-600 w-[455px] leading-[40px]">
+                  新一代自动化渗透测试平台——<span class="color-[#0070FF]">小智</span>
                 </div>
-                <div class="text-left text-[18px] mt-[10px] leading-[30px] w-[640px]">
+                <div class="text-[18px] mt-[10px] leading-[30px] w-[544px]">
                   国内率先实现“AI+网络安全检测”的智能渗透测试平台，能够实现自动化完成从信息收集、漏洞验证、漏洞利用、输出报告的渗透测试全过程。
                 </div>
                 <NuxtLink to="/safetyProduct/xiaozhi"><span
@@ -150,19 +185,16 @@ const newBannerBottomList = computed(() => {
 
         <swiper-slide>
           <div class="h-[100%] bg-no-repeat bg-positon-center"
-            :style="{ backgroundImage: 'url(/Images/yakit-banner.png)', backgroundPosition: '50% center', backgroundSize: 'contain' }">
+            :style="{ backgroundImage: 'url(/Images/aqfw-banner.png)', backgroundPosition: '50% center', backgroundSize: '1300px' }">
             <div class="wjaq-container h-[100%] mx-auto flex items-center">
-              <div class='text-center'>
-                <div class="text-center text-[35px] font-bold-600 w-[610px]">
-                  <span class="color-[#0070FF]">Yakit</span>交互式应用安全测试平台
+              <div class='text-left'>
+                <div class="text-[35px] font-bold-600 w-[540px] leading-[40px]">
+                  专业化安全服务与运营
                 </div>
-                <div class="text-left text-[18px] mt-[10px] leading-[30px] w-[610px]">
-                  为Yaklang编写了gRPC服务器，并基于gRPC服务器构建了客户端，通过GUI操控引擎能力，集成Yaklang的所有能力。
+                <div class="text-[18px] mt-[10px] leading-[30px] w-[540px]">
+                  以保障用户业务安全为核心目标，通过专业化安全能力和系统化技术方案，实现安全风险“发现-验证-分析-处置”闭环，提供7 X
+                  24小时常态化安全托管服务，构建全方位安全运营体系，将风险持续降低，提升安全运营质量。
                 </div>
-                <NuxtLink to="/safetyProduct/securityTestPlatform"><span
-                    class="inline-block rounded-50 bg-[#000] color-[#fff] px-[10px] w-[162px] h-[53px] text-[20px] leading-[53px] text-center mt-[50px]">
-                    了解详情
-                  </span></NuxtLink>
               </div>
             </div>
           </div>
@@ -196,7 +228,7 @@ const newBannerBottomList = computed(() => {
         <NuxtImg src="/Images/bottom-banner-right-bg.png" class="h-[500px]" />
       </div>
       <div class="wjaq-container mx-auto h-[100%] font-bold overflow-hidden bg-[#1E83FF]">
-        <div class="text-[40px] text-center text-[#fff] my-[70px]">他们也选择万径</div>
+        <div class="text-[40px] text-center text-[#fff] my-[70px]">他们也选择万径安全</div>
         <swiper class="h-[160px]" :speed="1500" loop :autoplay="{ disableOnInteraction: false, delay: 5000 }"
           :navigation="{
             nextEl: '.swiper-button-next',

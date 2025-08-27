@@ -35,43 +35,32 @@ onUnmounted(() => {
           <NuxtLink to="/">首页</NuxtLink>
         </div>
         <div class="dropdown relative ml-[80px] text-[18px]">
-          <NuxtLink to="/safetyProduct">产品</NuxtLink>
+          <NuxtLink to="/safetyProduct">安全产品</NuxtLink>
           <ul
             class="dropdown-content safetyProduct-dropdown-content absolute left-[0px] w-[360px] h-[0px] overflow-hidden bg-[#fff] left-[0px] top-[55px] px-[0px] text-[14px] rounded-[3px]">
             <a href="https://www.yaklang.com/" target="_blank">
               <li class="cursor-pointer pl-[15px] h-[35px] leading-[35px]">
-                YAK：网络安全领域编程语言
+                国内外首创的全国产化网络安全开发环境：YAK
               </li>
             </a>
             <NuxtLink to="/safetyProduct/securityTestPlatform">
               <li class="cursor-pointer pl-[15px] h-[35px] leading-[35px]">
-                Yakit：交互式应用安全测试平台
+                国产自主可控的交互式应用安全测试平台：Yakit
+              </li>
+            </NuxtLink>
+            <NuxtLink to="/safetyProduct/iRify">
+              <li class="cursor-pointer pl-[15px] h-[35px] leading-[35px]">
+                基于代码建模的大型项目代码审计平台：IRify
               </li>
             </NuxtLink>
             <NuxtLink to="/safetyProduct/qjLargeModel">
               <li class="cursor-pointer pl-[15px] h-[35px] leading-[35px]">
-                万径千机（SecMate）：新一代网络安全高级AI智能体
+                新一代网络安全高级 AI 智能体：万径千机
               </li>
             </NuxtLink>
             <NuxtLink to="/safetyProduct/xiaozhi">
               <li class="cursor-pointer pl-[15px] h-[35px] leading-[35px]">
-                小智：新一代自动化渗透测试平台
-              </li>
-            </NuxtLink>
-          </ul>
-        </div>
-        <div class="dropdown relative ml-[70px] text-[18px]">
-          <NuxtLink to="/solution">解决方案</NuxtLink>
-          <ul
-            class="dropdown-content solution-dropdown-content absolute w-[260px] h-[0px] overflow-hidden bg-[#fff] left-[0px] top-[55px] px-[0px] text-[14px] rounded-[3px]">
-            <NuxtLink to="/solution/constructionScheme">
-              <li class="cursor-pointer pl-[15px] h-[35px] leading-[35px]">
-                CDSL-YAK：企业安全建设解决方案
-              </li>
-            </NuxtLink>
-            <NuxtLink to="/solution/qualityImproScheme">
-              <li class="cursor-pointer pl-[15px] h-[35px] leading-[35px]">
-                渗透测试质量提升方案
+                新一代自动化渗透测试平台：小智
               </li>
             </NuxtLink>
           </ul>
@@ -115,12 +104,12 @@ onUnmounted(() => {
 
   &:hover {
     .safetyProduct-dropdown-content {
-      height: 140px;
+      height: 175px;
     }
 
-    .solution-dropdown-content {
+    /* .solution-dropdown-content {
       height: 70px;
-    }
+    } */
   }
 
 }

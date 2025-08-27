@@ -101,6 +101,6 @@ watchEffect(() => {
 }
 
 .about-us-history {
-  background-image: url("/Images/fzlc.png");
+  background-image: url("/Images/fzlc.jpg");
 }
 </style>
