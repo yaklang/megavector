@@ -43,7 +43,8 @@
                   d="M21.8074 8.61735V9.36735H22.9948L22.4846 8.29511L21.8074 8.61735ZM9.64697 8.61735L8.96973 8.29511L8.45954 9.36735H9.64697V8.61735ZM14.8016 1.8092L14.3077 1.24476L14.3077 1.24476L14.8016 1.8092ZM16.6527 1.8092L17.1466 1.24477L17.1466 1.24476L16.6527 1.8092ZM21.8074 7.86735L9.64697 7.86735V9.36735H21.8074V7.86735ZM10.3242 8.9396C11.503 6.46229 13.1837 4.22139 15.2955 2.37363L14.3077 1.24476C12.0402 3.22881 10.2354 5.63513 8.96973 8.29511L10.3242 8.9396ZM15.2955 2.37363C15.5426 2.15736 15.9117 2.15736 16.1589 2.37363L17.1466 1.24476C16.3339 0.533646 15.1204 0.533646 14.3077 1.24476L15.2955 2.37363ZM16.1589 2.37363C18.2706 4.22139 19.9514 6.46229 21.1301 8.9396L22.4846 8.29511C21.2189 5.63513 19.4141 3.22881 17.1466 1.24477L16.1589 2.37363Z"
                   fill="black" />
               </svg>
-              <div class="text-[18px] mt-[10px] color-[#fff]">Yakit社区版<span class="font-bold font-bold-600">持续更新迭代</span>
+              <div class="text-[18px] mt-[10px] color-[#fff]">Yakit社区版<span
+                  class="font-bold font-bold-600">持续更新迭代</span>
               </div>
             </div>
             <div class="mx-[100px]">
@@ -88,8 +89,8 @@
                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                 <path d="M1 2.89453L7.754 3.85953L9.684 8.68353" stroke="black" stroke-width="2" stroke-linecap="round"
                   stroke-linejoin="round" />
-                <path d="M12.6139 31.8418L8.75391 38.5958H50.2099" stroke="black" stroke-width="2" stroke-linecap="round"
-                  stroke-linejoin="round" />
+                <path d="M12.6139 31.8418L8.75391 38.5958H50.2099" stroke="black" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" />
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M17.4387 47.2804C17.4387 49.4124 15.7107 51.1404 13.5787 51.1404C11.4477 51.1404 9.71973 49.4124 9.71973 47.2804C9.71973 45.1484 11.4477 43.4204 13.5787 43.4204C15.7107 43.4204 17.4387 45.1484 17.4387 47.2804Z"
                   fill="black" />
@@ -111,12 +112,13 @@
               <div class="text-[18px] mt-[10px] color-[#fff]">公共插件商店及配套社区<span class="font-bold-600">永久免费</span></div>
             </div>
           </div>
-          <a href="https://yaklang.oss-cn-beijing.aliyuncs.com/Enterprise-security-construct-solution.pdf" download target="_block">
+          <a href="https://yaklang.oss-cn-beijing.aliyuncs.com/Enterprise-security-construct-solution.pdf" download
+            target="_block">
             <span
               class="inline-block rounded-[43px] bg-[#000] color-[#fff] py-[10px] px-[30px] h-[48px] text-[18px] leading-[26px] text-center mt-[55px]">
               <svg class="w-[18px] h-[16px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 16" fill="none">
-                <path d="M1 9.5V12.5C1 13.6046 1.89543 14.5 3 14.5H15C16.1046 14.5 17 13.6046 17 12.5V9.5" stroke="white"
-                  stroke-width="1.5" stroke-linecap="round" />
+                <path d="M1 9.5V12.5C1 13.6046 1.89543 14.5 3 14.5H15C16.1046 14.5 17 13.6046 17 12.5V9.5"
+                  stroke="white" stroke-width="1.5" stroke-linecap="round" />
                 <path d="M5 5.80159L9 8.92857M9 8.92857L13 5.80159M9 8.92857V1" stroke="white" stroke-width="1.5"
                   stroke-linecap="round" />
               </svg>
@@ -149,7 +151,8 @@
         </div>
         <div data-aos="fade-left" class="w-[565px]">
           <div class="text-[32px] font-bold-600 mb-[16px]">实现企业安全工具的统一管理</div>
-          <div class="color-[#646363] text-[18px] mb-[38px] leading-[30px]">构建企业渗透测试全流程工具并进行统一管理，工具原生协同，迅速拉平企业内部安全人员的 “硬件”
+          <div class="color-[#646363] text-[18px] mb-[38px] leading-[30px]">构建企业渗透测试全流程工具并进行统一管理，工具原生协同，迅速拉平企业内部安全人员的
+            “硬件”
             水平。</div>
           <div class="mb-[50px]">
             <div class="text-[18px] font-bold-600 mb-[15px]">全流程工具包括</div>
@@ -232,7 +235,8 @@
         </div>
         <div data-aos="fade-left" class="w-[450px]">
           <div class="text-[32px] font-bold-600 mb-[16px]">针对新漏洞的快速响应</div>
-          <div class="color-[#646363] text-[18px] mb-[38px] leading-[30px]">针对网络空间新发现的漏洞，快速提供针对性的检测插件，按照影响程度进行分级响应。</div>
+          <div class="color-[#646363] text-[18px] mb-[38px] leading-[30px]">针对网络空间新发现的漏洞，快速提供针对性的检测插件，按照影响程度进行分级响应。
+          </div>
           <div class="text-[16px]">
             <div class="flex items-center mb-[25px]">
               <svg class="w-[30px] h-[30px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" fill="none">
@@ -297,8 +301,8 @@
                   </svg>针对内网业务系统可以在内网直接部署 Yakit 服务器，配置安装后即可上线使用。</span>
               </div>
               <div class="flex items-center">
-                <span><svg class="w-[6px] h-[6px] mr-[5px] mb-[2px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 6"
-                    fill="none">
+                <span><svg class="w-[6px] h-[6px] mr-[5px] mb-[2px]" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 6 6" fill="none">
                     <circle cx="3" cy="3" r="2.5" stroke="#0070FF" />
                   </svg>持续“快速灵活低成本”挂载更多低代码服务和应用。</span>
               </div>
@@ -333,7 +337,8 @@
 
     <!-- 企业版可以支持的使用场景 -->
     <div class="relative h-[660px] bg-[#F4FAFF]">
-      <div class="absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] mb-[30px]" :style="{ zIndex: 999 }">
+      <div class="absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] mb-[30px]"
+        :style="{ zIndex: 999 }">
         <div class="text-[32px] font-bold-600 text-center mb-[45px]">企业版可以支持的使用场景</div>
         <div class="flex mb-[30px]">
           <div class="flex flex-col justify-center items-center w-[300px] h-[165px] bg-[#fff]">
@@ -384,12 +389,14 @@
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M25.1147 31.2389L21.1215 27.308C20.3859 26.5839 20.3859 25.4104 21.1215 24.6864L25.1147 20.7555"
                   fill="white" />
-                <path d="M25.1147 31.2389L21.1215 27.308C20.3859 26.5839 20.3859 25.4104 21.1215 24.6864L25.1147 20.7555"
+                <path
+                  d="M25.1147 31.2389L21.1215 27.308C20.3859 26.5839 20.3859 25.4104 21.1215 24.6864L25.1147 20.7555"
                   stroke="#0070FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M38.4551 31.2389L42.4483 27.308C43.1839 26.5839 43.1839 25.4104 42.4483 24.6864L38.4551 20.7555"
                   fill="white" />
-                <path d="M38.4551 31.2389L42.4483 27.308C43.1839 26.5839 43.1839 25.4104 42.4483 24.6864L38.4551 20.7555"
+                <path
+                  d="M38.4551 31.2389L42.4483 27.308C43.1839 26.5839 43.1839 25.4104 42.4483 24.6864L38.4551 20.7555"
                   stroke="#0070FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                 <path d="M7.38477 15.3358H25.6926" stroke="black" stroke-width="2" stroke-linecap="round"
                   stroke-linejoin="round" />
@@ -424,10 +431,11 @@
                   d="M12 28.6146C12 31.3756 9.761 33.6146 7 33.6146C4.239 33.6146 2 31.3756 2 28.6146C2 25.8536 4.239 23.6146 7 23.6146C9.761 23.6146 12 25.8536 12 28.6146Z"
                   stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                 <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M7 33.6146C3.686 33.6146 1 36.3006 1 39.6146H13C13 36.3006 10.314 33.6146 7 33.6146Z" fill="white" />
+                  d="M7 33.6146C3.686 33.6146 1 36.3006 1 39.6146H13C13 36.3006 10.314 33.6146 7 33.6146Z"
+                  fill="white" />
                 <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M7 33.6146C3.686 33.6146 1 36.3006 1 39.6146H13C13 36.3006 10.314 33.6146 7 33.6146Z" stroke="black"
-                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  d="M7 33.6146C3.686 33.6146 1 36.3006 1 39.6146H13C13 36.3006 10.314 33.6146 7 33.6146Z"
+                  stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M38 28.6146C38 31.3756 35.761 33.6146 33 33.6146C30.239 33.6146 28 31.3756 28 28.6146C28 25.8536 30.239 23.6146 33 23.6146C35.761 23.6146 38 25.8536 38 28.6146Z"
                   fill="white" />
@@ -531,8 +539,8 @@
                     d="M20.3808 18.2564H6.76172V16.1314C6.76172 12.6103 9.57562 9.75644 13.0474 9.75644H14.0951C17.5669 9.75644 20.3808 12.6103 20.3808 16.1314V18.2564Z"
                     stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                   <g id="&#231;&#188;&#150;&#231;&#187;&#132;_2">
-                    <path id="Fill 9" fill-rule="evenodd" clip-rule="evenodd" d="M7.28564 35.2564V24.6314H38.7142V35.2564"
-                      fill="white" />
+                    <path id="Fill 9" fill-rule="evenodd" clip-rule="evenodd"
+                      d="M7.28564 35.2564V24.6314H38.7142V35.2564" fill="white" />
                     <path id="Stroke 11" d="M7.28564 35.2564V24.6314H38.7142V35.2564" stroke="#0070FF" stroke-width="2"
                       stroke-linecap="round" stroke-linejoin="round" />
                   </g>

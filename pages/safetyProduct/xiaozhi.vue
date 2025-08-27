@@ -42,10 +42,10 @@ const coreTechnologyList = ref([
                   stroke-linejoin="round" />
                 <path d="M7.98242 7.98242L11.182 11.182" stroke="#0070FF" stroke-miterlimit="10" stroke-linecap="round"
                   stroke-linejoin="round" />
-                <path d="M28.8276 28.8184L32.0272 32.0179" stroke="#0070FF" stroke-miterlimit="10" stroke-linecap="round"
-                  stroke-linejoin="round" />
-                <path d="M7.98267 32.0179L11.1822 28.8184" stroke="#0070FF" stroke-miterlimit="10" stroke-linecap="round"
-                  stroke-linejoin="round" />
+                <path d="M28.8276 28.8184L32.0272 32.0179" stroke="#0070FF" stroke-miterlimit="10"
+                  stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M7.98267 32.0179L11.1822 28.8184" stroke="#0070FF" stroke-miterlimit="10"
+                  stroke-linecap="round" stroke-linejoin="round" />
                 <path d="M28.8279 11.182L32.0274 7.98242" stroke="#0070FF" stroke-miterlimit="10" stroke-linecap="round"
                   stroke-linejoin="round" />
                 <path d="M20 11.9526V20.7707L24.5295 25.5411" stroke="#0070FF" stroke-miterlimit="10"
@@ -119,13 +119,13 @@ const coreTechnologyList = ref([
               <div class="text-[18px] mt-[10px] color-[#fff]">打破信息差<span class="font-bold-600">自动执行</span></div>
             </div>
           </div>
-          <a href="https://yaklang.oss-cn-beijing.aliyuncs.com/xiaozhi-product-white-paper.pdf"
-            download target="_block">
+          <a href="https://yaklang.oss-cn-beijing.aliyuncs.com/xiaozhi-product-white-paper.pdf" download
+            target="_block">
             <span
               class="inline-block rounded-[43px] bg-[#000] color-[#fff] py-[10px] px-[30px] h-[48px] text-[18px] leading-[26px] text-center mt-[55px]">
               <svg class="w-[18px] h-[16px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 16" fill="none">
-                <path d="M1 9.5V12.5C1 13.6046 1.89543 14.5 3 14.5H15C16.1046 14.5 17 13.6046 17 12.5V9.5" stroke="white"
-                  stroke-width="1.5" stroke-linecap="round" />
+                <path d="M1 9.5V12.5C1 13.6046 1.89543 14.5 3 14.5H15C16.1046 14.5 17 13.6046 17 12.5V9.5"
+                  stroke="white" stroke-width="1.5" stroke-linecap="round" />
                 <path d="M5 5.80159L9 8.92857M9 8.92857L13 5.80159M9 8.92857V1" stroke="white" stroke-width="1.5"
                   stroke-linecap="round" />
               </svg>
@@ -140,8 +140,8 @@ const coreTechnologyList = ref([
       <!-- 模拟“大脑”的认知与决策 -->
       <div class="mt-[300px] mb-[300px]">
         <div class="relative py-[15px] px-[40px] mb-[120px] mx-auto w-[560px]">
-          <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21"
-            fill="none">
+          <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 21 21" fill="none">
             <path d="M21 3H3V21" stroke="#0070FF" stroke-width="6" />
           </svg>
           <div class="text-[40px] text-center font-bold-600">
@@ -174,8 +174,8 @@ const coreTechnologyList = ref([
       <!-- 核心技术 -->
       <div class="mb-[300px]">
         <div class="relative py-[15px] px-[40px] mb-[120px] mx-auto w-[250px]">
-          <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21"
-            fill="none">
+          <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 21 21" fill="none">
             <path d="M21 3H3V21" stroke="#0070FF" stroke-width="6" />
           </svg>
           <div class="text-[40px] text-center font-bold-600">
@@ -201,8 +201,8 @@ const coreTechnologyList = ref([
       <!-- 客户价值 -->
       <div class="mb-[300px]">
         <div class="relative py-[15px] px-[40px] mb-[120px] mx-auto w-[250px]">
-          <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21"
-            fill="none">
+          <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 21 21" fill="none">
             <path d="M21 3H3V21" stroke="#0070FF" stroke-width="6" />
           </svg>
           <div class="text-[40px] text-center font-bold-600">
@@ -308,8 +308,8 @@ const coreTechnologyList = ref([
           <!-- 能力成长 -->
           <div class="nlcz-wrap w-[300px]">
             <div class="relative w-[140px] bg-[#0070FF] rounded-[53px] mb-[35px] left-[50%] ml-[-70px]">
-              <svg class="absolute left-[-30px] top-[0px] w-[49px] h-[50px]" xmlns="http://www.w3.org/2000/svg" width="49"
-                height="50" viewBox="0 0 49 50" fill="none">
+              <svg class="absolute left-[-30px] top-[0px] w-[49px] h-[50px]" xmlns="http://www.w3.org/2000/svg"
+                width="49" height="50" viewBox="0 0 49 50" fill="none">
                 <path
                   d="M10.1027 5.11426H6C3.79086 5.11426 2 6.90512 2 9.11426V12.4096C2 17.5612 5.04203 22.2268 9.75589 24.3049L12.888 25.6857"
                   stroke="black" stroke-width="3" />
@@ -341,8 +341,8 @@ const coreTechnologyList = ref([
       <!-- 应用场景 -->
       <div class="mb-[300px]">
         <div class="relative py-[15px] px-[40px] mb-[120px] mx-auto w-[250px]">
-          <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21"
-            fill="none">
+          <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 21 21" fill="none">
             <path d="M21 3H3V21" stroke="#0070FF" stroke-width="6" />
           </svg>
           <div class="text-[40px] text-center font-bold-600">
@@ -373,7 +373,8 @@ const coreTechnologyList = ref([
                   <path d="M37.5142 93.3048L63.2176 78.3665L89.0851 93.3048L63.3888 108.236L37.5142 93.3048Z"
                     fill="#0077FF" />
                 </g>
-                <path d="M48.3005 99.547L63.2532 90.8579L78.3057 99.547L63.3531 108.236L48.3005 99.547Z" fill="#0070FF" />
+                <path d="M48.3005 99.547L63.2532 90.8579L78.3057 99.547L63.3531 108.236L48.3005 99.547Z"
+                  fill="#0070FF" />
                 <path d="M7.02376 75.6412L5.16895 74.5711L7.02376 73.4939" stroke="black" stroke-width="1.5"
                   stroke-linecap="round" stroke-linejoin="round" />
                 <path d="M9.94141 71.796L59.8002 42.8181" stroke="black" stroke-width="1.5" stroke-linecap="round"
@@ -511,7 +512,8 @@ const coreTechnologyList = ref([
                   <path d="M37.5215 93.3048L63.2177 78.3664L89.0924 93.3048L63.389 108.236L37.5215 93.3048Z"
                     fill="#0077FF" />
                 </g>
-                <path d="M48.3005 99.547L63.2532 90.8579L78.3056 99.547L63.353 108.236L48.3005 99.547Z" fill="#0070FF" />
+                <path d="M48.3005 99.547L63.2532 90.8579L78.3056 99.547L63.353 108.236L48.3005 99.547Z"
+                  fill="#0070FF" />
                 <path d="M7.03086 75.6412L5.17603 74.5711L7.02372 73.4939" stroke="black" stroke-width="1.5"
                   stroke-linecap="round" stroke-linejoin="round" />
                 <path d="M9.94116 71.7961L59.8071 42.8182" stroke="black" stroke-width="1.5" stroke-linecap="round"

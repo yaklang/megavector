@@ -43,14 +43,6 @@ export default defineNuxtConfig({
   vueuse: {
     ssrHandlers: true,
   },
-  // unocss
-  unocss: {
-    uno: true,
-    attributify: true,
-    icons: {
-      scale: 1.2,
-    },
-  },
   vite: {
     css: {
       preprocessorOptions: {

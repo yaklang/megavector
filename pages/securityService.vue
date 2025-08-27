@@ -4,23 +4,12 @@
 <template>
   <div class="mt-[86px]">
     <!-- 安全服务 banner -->
-    <div class="h-[560px] bg-[#F4FAFF]">
-      <div class="wjaq-container mx-auto h-[100%] flex justify-between items-center">
-        <div class="">
-          <div class="text-[50px] font-bold-600 text-center">更全面的安全服务</div>
-          <div class="text-[20px] mt-[28px]">
-            <span class="inline-block rounded-25 bg-[#0070FF] color-[#fff] px-[27px] py-[8px]">
-              专业
-            </span>
-            <span class="inline-block rounded-25 bg-[#0070FF] color-[#fff] px-[27px] py-[8px] ml-[24px]">
-              快速
-            </span>
-            <span class="inline-block rounded-25 bg-[#0070FF] color-[#fff] px-[27px] py-[8px] ml-[24px]">
-              规范
-            </span>
-            <span class="inline-block rounded-25 bg-[#0070FF] color-[#fff] px-[27px] py-[8px] ml-[24px]">
-              可靠
-            </span>
+    <div class="relative h-[620px] bg-[#F4FAFF]">
+      <div class="wjaq-container mx-auto h-[100%] flex items-center justify-between">
+        <div class="w-[600px]">
+          <div class="text-[52px] mb-[18px]">专业化安全服务与运营</div>
+          <div class="text-[18px] leading-[35px]">
+            以保障用户业务安全为核心目标，通过专业化安全能力和系统化技术方案，实现安全风险“发现-验证-分析-处置”闭环，提供7 X 24小时常态化安全托管服务，构建全方位安全运营体系，将风险持续降低，提升安全运营质量。
           </div>
         </div>
         <div class="securityService-banner-img">
@@ -31,7 +20,6 @@
 
     <div class="securityService-cont wjaq-container min-h-[2157px] mx-auto overflow-hidden">
       <!-- 渗透测试 -->
-      <div id="stcs"></div>
       <div class="flex justify-between items-center px-[10px] mt-[300px]">
         <div data-aos="fade-right">
           <NuxtImg src="/Images/securityService-stcs.png" class="h-[320px]" />
@@ -39,30 +27,35 @@
         <div data-aos="fade-left" class="w-[650px]">
           <div class="text-[32px] font-bold-600 mb-[16px]">渗透测试</div>
           <div class="text-[18px] mb-[38px] leading-[35px]">
-            从攻击者视角模拟最真实的攻击，帮助企业发现系统安全漏洞并协助修复。万径安全技术团队拥有丰富的安全测试经验，了解不同场景下的攻防思路，帮助企业快速定位问题所在，可根据业务实际应用场景定制不同测试目标和内容，严格遵守授权许可范围，不影响业务的正常运行。</div>
+            从攻击者视角模拟最真实的攻击，帮助企业发现系统安全漏洞并协助修复。万径安全技术团队拥有丰富的安全测试经验，了解不同场景下的攻防思路，帮助企业快速定位问题所在，可根据业务实际应用场景定制不同测试目标和内容，严格遵守授权许可范围，不影响业务的正常运行。
+          </div>
           <div class="color-[#0070FF] text-[24px] mt-[30px] mb-[20px] font-bold-600">检测内容</div>
           <div class="px-[100px]">
             <div class="flex justify-between text-[16px] mb-[22px]">
-              <div class="py-[10px] px-[22px] bg-[#DEEEFD] color-[#0070FF] rounded-[35px] min-w-[140px] text-center">Web服务
+              <div class="py-[10px] px-[22px] bg-[#DEEEFD] color-[#0070FF] rounded-[35px] min-w-[140px] text-center">
+                Web服务
               </div>
-              <div class="py-[10px] px-[22px] bg-[#DEEEFD] color-[#0070FF] rounded-[35px] min-w-[140px] text-center">Web应用
+              <div class="py-[10px] px-[22px] bg-[#DEEEFD] color-[#0070FF] rounded-[35px] min-w-[140px] text-center">
+                Web应用
               </div>
-              <div class="py-[10px] px-[22px] bg-[#DEEEFD] color-[#0070FF] rounded-[35px] min-w-[140px] text-center">外网检测
+              <div class="py-[10px] px-[22px] bg-[#DEEEFD] color-[#0070FF] rounded-[35px] min-w-[140px] text-center">
+                外网检测
               </div>
             </div>
             <div class="flex justify-between text-[16px]">
-              <div class="py-[10px] px-[22px] bg-[#DEEEFD] color-[#0070FF] rounded-[35px] min-w-[140px] text-center">内网检测
+              <div class="py-[10px] px-[22px] bg-[#DEEEFD] color-[#0070FF] rounded-[35px] min-w-[140px] text-center">
+                内网检测
               </div>
               <div class="py-[10px] px-[22px] bg-[#DEEEFD] color-[#0070FF] rounded-[35px] min-w-[140px] text-center">移动端
               </div>
-              <div class="py-[10px] px-[22px] bg-[#DEEEFD] color-[#0070FF] rounded-[35px] min-w-[140px] text-center">IOT设备
+              <div class="py-[10px] px-[22px] bg-[#DEEEFD] color-[#0070FF] rounded-[35px] min-w-[140px] text-center">
+                IOT设备
               </div>
             </div>
           </div>
         </div>
       </div>
       <!-- 应急响应 -->
-      <div id="yjxy"></div>
       <div class="flex justify-between items-center px-[10px] mt-[195px]">
         <div data-aos="fade-right" class="w-[650px]">
           <div class="text-[32px] font-bold-600 mb-[16px]">应急响应</div>
@@ -75,7 +68,6 @@
         </div>
       </div>
       <!-- 代码审计 -->
-      <div id="dmsj"></div>
       <div class="flex justify-between items-center px-[10px] mt-[195px]">
         <div data-aos="fade-right">
           <NuxtImg src="/Images/securityService-codesj.png" class="h-[250px]" />
@@ -130,8 +122,7 @@
         </div>
       </div>
       <!-- 安全培训服务 -->
-      <div id="aqpxfw"></div>
-      <div class="flex justify-between items-center px-[10px] mt-[195px] mb-[300px]">
+      <div class="flex justify-between items-center px-[10px] mt-[195px]">
         <div data-aos="fade-right" class="w-[650px]">
           <div class="text-[32px] font-bold-600 mb-[16px]">安全培训服务</div>
           <div class="text-[16px] mb-[38px] leading-[35px]">
@@ -140,6 +131,33 @@
         </div>
         <div data-aos="fade-left">
           <NuxtImg src="/Images/securityService-fwpx.png" class="h-[224px]" />
+        </div>
+      </div>
+      <!-- 安全评估服务 -->
+      <div class="flex justify-between items-center px-[10px] mt-[195px]">
+        <div data-aos="fade-right">
+          <NuxtImg src="/Images/securityService-aqpgfw.png" class="h-[230px]" />
+        </div>
+        <div data-aos="fade-left" class="w-[650px]">
+          <div class="text-[32px] font-bold-600 mb-[16px]">安全评估服务</div>
+          <div class="text-[16px] mb-[38px] leading-[35px]">
+            通过漏洞扫描，发现网络设备、主机等的安全弱点。上线安全评估则是对应用系统在生产运行前的全面安全评价，确保物理环境到系统数据的全面安全。弱口令安全检查则是利用工具对客户系统的各项组件进行密码强度检测，预防潜在风险；风险评估则是全面考量信息资产面临的威胁、弱点及可能的影响，从而准确评估风险，为安全防护提供有力支撑。
+          </div>
+        </div>
+      </div>
+      <!-- 重大活动保障服务 -->
+      <div class="flex justify-between items-center px-[10px] mt-[195px] mb-[300px]">
+        <div data-aos="fade-right" class="w-[650px]">
+          <div class="text-[32px] font-bold-600 mb-[16px]">重大活动保障服务</div>
+          <div class="text-[16px] leading-[35px]">
+            通过现场值守与专家远程协同，对活动系统展开全面风险评估与排除。在奥运会、国庆等重大活动期间，我们多次受邀提供安全保障服务，并获得客户一致好评，保障内容涵盖特殊敏感时期防护、企业业务活动监控、网络安全攻防演练等多个场景，确保企业资产安全。在重大活动保障中，提供从网站安全监控到整改复检的全方位服务，并通过现场值守、应急响应等措施，确保活动安全顺利进行。
+          </div>
+          <div class="text-[14px] leading-[35px] color-[#5E5C5C]">
+            包含：特殊敏感时期防护、企业业务活动监控、网络安全攻防演练、重大节假日安全防护
+          </div>
+        </div>
+        <div data-aos="fade-left">
+          <NuxtImg src="/Images/securityService-zdhdbz.png" class="h-[250px]" />
         </div>
       </div>
     </div>
