@@ -88,7 +88,7 @@ const newBannerBottomList = computed(() => {
             :style="{ backgroundImage: 'url(/Images/solution-banner.png)', backgroundPosition: '50% center', backgroundSize: 'contain' }">
             <div class="wjaq-container h-[100%] mx-auto flex items-center">
               <div class='text-left'>
-                <div class="text-[35px] font-bold-600 w-[450px] leading-[40px]">
+                <div class="text-[35px] font-bold-600 w-[540px] leading-[40px]">
                   国内外首创的全国产化网络安全开发环境——<span class="color-[#0070FF]">YAK</span>
                 </div>
                 <div class="text-[18px] mt-[10px] leading-[30px] w-[540px]">
@@ -108,7 +108,7 @@ const newBannerBottomList = computed(() => {
             :style="{ backgroundImage: 'url(/Images/yakit-banner.png)', backgroundPosition: '50% center', backgroundSize: 'contain' }">
             <div class="wjaq-container h-[100%] mx-auto flex items-center">
               <div class='text-left'>
-                <div class="text-[35px] font-bold-600 w-[454px] leading-[40px]">
+                <div class="text-[35px] font-bold-600 w-[500px] leading-[40px]">
                   国产自主可控的交互式应用安全测试平台——<span class="color-[#0070FF]">Yakit</span>
                 </div>
                 <div class="text-[18px] mt-[10px] leading-[30px] w-[741px]">
@@ -128,10 +128,10 @@ const newBannerBottomList = computed(() => {
             :style="{ backgroundImage: 'url(/Images/iRify-banner.png)', backgroundPosition: '50% center', backgroundSize: '1200px' }">
             <div class="wjaq-container h-[100%] mx-auto flex items-center">
               <div class='text-left'>
-                <div class="text-[35px] font-bold-600 w-[454px] leading-[40px]">
+                <div class="text-[35px] font-bold-600 w-[540px] leading-[40px]">
                   基于代码建模的大型项目代码审计平台——<span class="color-[#0070FF]">IRify</span>
                 </div>
-                <div class="text-[18px] mt-[10px] leading-[30px] w-[504px]">
+                <div class="text-[18px] mt-[10px] leading-[30px] w-[540px]">
                   一款领先于传统SAST产品的创新型安全分析平台，深度解析复杂代码结构，涵盖多语言场景并提供精细的数据流和控制流分析能力。
                 </div>
                 <NuxtLink to="/safetyProduct/iRify"><span
@@ -151,7 +151,7 @@ const newBannerBottomList = computed(() => {
                 <div class="text-[35px] font-bold-600 w-[508px] leading-[40px]">
                   新一代网络安全高级 AI 智能体——<span class="color-[#0070FF]">万径千机</span>
                 </div>
-                <div class="text-[18px] mt-[10px] leading-[30px] w-[627px]">
+                <div class="text-[18px] mt-[10px] leading-[30px] w-[508px]">
                   致力于推动网络安全攻防走向智能化、无人化，具备自主规划、动态决策、工具调度、全程自主四大优势，7X24小时自主完成复杂网络安全任务，大幅提升人工效率。
                 </div>
                 <NuxtLink to="/safetyProduct/qjLargeModel"><span
@@ -171,7 +171,7 @@ const newBannerBottomList = computed(() => {
                 <div class="text-[35px] font-bold-600 w-[455px] leading-[40px]">
                   新一代自动化渗透测试平台——<span class="color-[#0070FF]">小智</span>
                 </div>
-                <div class="text-[18px] mt-[10px] leading-[30px] w-[544px]">
+                <div class="text-[18px] mt-[10px] leading-[30px] w-[455px]">
                   国内率先实现“AI+网络安全检测”的智能渗透测试平台，能够实现自动化完成从信息收集、漏洞验证、漏洞利用、输出报告的渗透测试全过程。
                 </div>
                 <NuxtLink to="/safetyProduct/xiaozhi"><span
@@ -216,7 +216,8 @@ const newBannerBottomList = computed(() => {
     </div>
 
     <!-- 万径树 -->
-    <div class="h-[1000px] tree-wrap bg-center bg-contain bg-no-repeat mt-[150px] mb-[150px]">
+    <div class="my-[150px]">
+      <img src="/Images/wanjin_tree.png" class="max-h-[1100px] mx-auto block" />
     </div>
 
     <!-- 底部轮播 -->
@@ -262,10 +263,6 @@ const newBannerBottomList = computed(() => {
 </template>
 
 <style lang="scss" scoped>
-.tree-wrap {
-  background-image: url('/Images/wanjin_tree.png');
-}
-
 [data-aos^=zoom][data-aos^=zoom].aos-animate {
   opacity: .8 !important;
 }
