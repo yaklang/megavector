@@ -1,7 +1,13 @@
+import { useRouter } from "vue-router";
+
 export default defineNuxtPlugin(() => {
   if (process.server) return;
 
-  const GLOBAL_DEFAULT_SPEED = 1.0; // 没写 data-speed 时用这个
+  const router = useRouter();
+
+  const GLOBAL_DEFAULT_SPEED = 1.0;
+  let observer: MutationObserver | null = null;
+  const unbindVideoFns = new Set<() => void>();
 
   function initVideoSpeed(video: HTMLVideoElement) {
     if (video.dataset._initSpeed) return;
@@ -16,39 +22,63 @@ export default defineNuxtPlugin(() => {
       video.playbackRate = defaultSpeed;
     }
 
-    // 元数据加载后尝试设置
-    video.addEventListener("loadedmetadata", setDefaultSpeed);
-
-    // 播放时兜底，确保生效
-    video.addEventListener("play", setDefaultSpeed);
-
-    // 用户手动调整 -> 记住用户的选择
-    video.addEventListener("ratechange", () => {
+    const rateChangeHandler = () => {
       if (video.playbackRate !== defaultSpeed) {
         video.defaultPlaybackRate = video.playbackRate;
       }
-    });
+    };
+
+    video.addEventListener("loadedmetadata", setDefaultSpeed);
+    video.addEventListener("play", setDefaultSpeed);
+    video.addEventListener("ratechange", rateChangeHandler);
+
+    const unbind = () => {
+      video.removeEventListener("loadedmetadata", setDefaultSpeed);
+      video.removeEventListener("play", setDefaultSpeed);
+      video.removeEventListener("ratechange", rateChangeHandler);
+    };
+
+    unbindVideoFns.add(unbind);
   }
 
-  // 初始化已有 video
-  document
-    .querySelectorAll("video")
-    .forEach((v) => initVideoSpeed(v as HTMLVideoElement));
+  function startObserver() {
+    document
+      .querySelectorAll("video")
+      .forEach((v) => initVideoSpeed(v as HTMLVideoElement));
 
-  // 监听 DOM 变化，处理动态添加的 video
-  const observer = new MutationObserver((mutations) => {
-    mutations.forEach((mutation) => {
-      mutation.addedNodes.forEach((node) => {
-        if (node instanceof HTMLVideoElement) {
-          initVideoSpeed(node);
-        } else if (node instanceof HTMLElement) {
-          node
-            .querySelectorAll("video")
-            .forEach((v) => initVideoSpeed(v as HTMLVideoElement));
-        }
+    observer = new MutationObserver((mutations) => {
+      mutations.forEach((mutation) => {
+        mutation.addedNodes.forEach((node) => {
+          if (node instanceof HTMLVideoElement) {
+            initVideoSpeed(node);
+          } else if (node instanceof HTMLElement) {
+            node
+              .querySelectorAll("video")
+              .forEach((v) => initVideoSpeed(v as HTMLVideoElement));
+          }
+        });
       });
     });
-  });
 
-  observer.observe(document.body, { childList: true, subtree: true });
+    observer.observe(document.body, { childList: true, subtree: true });
+  }
+
+  function cleanup() {
+    if (observer) {
+      observer.disconnect();
+      observer = null;
+    }
+    unbindVideoFns.forEach((fn) => fn());
+    unbindVideoFns.clear();
+  }
+
+  // 初始化一次
+  startObserver();
+
+  // 路由切换时清理 + 重启
+  router.beforeEach((to, from, next) => {
+    cleanup();
+    next();
+    requestAnimationFrame(() => startObserver());
+  });
 });
