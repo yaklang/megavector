@@ -14,15 +14,15 @@
       <div class="yakit-banner-cont relative wjaq-container mx-auto h-[100%] flex justify-center items-center">
         <div class="text-center">
           <div class="text-[52px] color-[#fff]"><span class="font-bold-600">Yakit</span>交互式应用安全测试平台</div>
-          <div class="text-[18px] color-[#fff] mt-[20px]">为Yaklang编写了gRPC服务器，并基于gRPC服务器构建了客户端，通过GUI操控引擎能力，集成Yaklang的所有能力。
+          <div class="text-[18px] color-[#fff] mt-[20px]">所有工具能力均采用国产编程语言 YAK 完成，完全自主可控。
           </div>
-          <a href="https://yaklang.oss-cn-beijing.aliyuncs.com/yakit-technical-white-paper.pdf"
-            download target="_block">
+          <a href="https://yaklang.oss-cn-beijing.aliyuncs.com/yakit-technical-white-paper.pdf" download
+            target="_block">
             <span
               class="inline-block rounded-[43px] bg-[#000] color-[#fff] py-[10px] px-[30px] h-[48px] text-[18px] leading-[26px] text-center mt-[60px]">
               <svg class="w-[18px] h-[16px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 16" fill="none">
-                <path d="M1 9.5V12.5C1 13.6046 1.89543 14.5 3 14.5H15C16.1046 14.5 17 13.6046 17 12.5V9.5" stroke="white"
-                  stroke-width="1.5" stroke-linecap="round" />
+                <path d="M1 9.5V12.5C1 13.6046 1.89543 14.5 3 14.5H15C16.1046 14.5 17 13.6046 17 12.5V9.5"
+                  stroke="white" stroke-width="1.5" stroke-linecap="round" />
                 <path d="M5 5.80159L9 8.92857M9 8.92857L13 5.80159M9 8.92857V1" stroke="white" stroke-width="1.5"
                   stroke-linecap="round" />
               </svg>
@@ -43,7 +43,7 @@
               fill="#DEEEFD" />
           </svg>
           <div class="text-[40px] text-center font-bold-500">
-            <span class="font-bold-600 color-[#007AFF]">CDSL-YAK</span>的最佳实践，让企业安全测试高效可控。
+            全国产化网络安全开发环境 YAK 的最佳实践，让企业安全测试高效可控。
           </div>
           <svg class="absolute right-[0] bottom-[0] w-[51px] h-[50px]" xmlns="http://www.w3.org/2000/svg" width="51"
             height="50" viewBox="0 0 51 50" fill="none">
@@ -56,8 +56,8 @@
       <!-- 全方位的权限管控  -->
       <div class="mb-[300px]">
         <div class="relative py-[15px] px-[40px] mb-[80px] mx-auto w-[520px]">
-          <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21"
-            fill="none">
+          <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 21 21" fill="none">
             <path d="M21 3H3V21" stroke="#0070FF" stroke-width="6" />
           </svg>
           <div class="text-[40px] text-center font-bold-600">
@@ -115,8 +115,8 @@
       <!-- 高效的团队协作体系 -->
       <div class="mb-[300px]">
         <div class="relative py-[15px] px-[40px] mb-[80px] mx-auto w-[567px]">
-          <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21"
-            fill="none">
+          <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 21 21" fill="none">
             <path d="M21 3H3V21" stroke="#0070FF" stroke-width="6" />
           </svg>
           <div class="text-[40px] text-center font-bold-600">
@@ -166,8 +166,8 @@
       <!-- 项目管理和数据管控 -->
       <div class="mb-[300px]">
         <div class="relative py-[15px] px-[40px] mb-[80px] mx-auto w-[567px]">
-          <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21"
-            fill="none">
+          <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 21 21" fill="none">
             <path d="M21 3H3V21" stroke="#0070FF" stroke-width="6" />
           </svg>
           <div class="text-[40px] text-center font-bold-600">
@@ -226,8 +226,8 @@
       <!-- 高级功能和定制化选项 -->
       <div class="mb-[300px]">
         <div class="relative py-[15px] px-[40px] mb-[80px] mx-auto w-[643px]">
-          <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21"
-            fill="none">
+          <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 21 21" fill="none">
             <path d="M21 3H3V21" stroke="#0070FF" stroke-width="6" />
           </svg>
           <div class="text-[40px] text-center font-bold-600">
@@ -476,8 +476,8 @@
       <!-- 客户案例 -->
       <div class="mb-[300px]">
         <div class="relative py-[15px] px-[40px] mb-[80px] mx-auto w-[420px]">
-          <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21"
-            fill="none">
+          <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 21 21" fill="none">
             <path d="M21 3H3V21" stroke="#0070FF" stroke-width="6" />
           </svg>
           <div class="text-[40px] text-center font-bold-600">
@@ -534,7 +534,8 @@
           <div class="solution-item relative w-[260px] h-[313px] py-[40px] px-[30px] rounded-[13px]">
             <div class="solution-item-text absolute w-[200px]">
               <div class="text-[16px] text-center font-bold-600 mb-[15px]">高效率的工具集成</div>
-              <div class="text-[15px] leading-[28px]">Yakit集成了多种渗透测试工具和协作工具，确保团队可以在一个平台上完成从数据收集、漏洞扫描到结果报告的所有工作，大幅提升了测试效率。
+              <div class="text-[15px] leading-[28px]">
+                Yakit集成了多种渗透测试工具和协作工具，确保团队可以在一个平台上完成从数据收集、漏洞扫描到结果报告的所有工作，大幅提升了测试效率。
               </div>
             </div>
             <NuxtImg class="absolute right-[0px] bottom-[0px] w-[177px]" src="/Images/lightBulb.png" />

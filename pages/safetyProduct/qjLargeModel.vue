@@ -1,16 +1,16 @@
 <script setup>
-const { data: version, refresh } = useFetch('https://chatcs.oss-rg-china-mainland.aliyuncs.com/chatcs/latest/version.txt', {
-  headers: {
-    "Cache-Control": "no-cache, no-store, must-revalidate",
-    Pragma: "no-cache",
-  },
-  key: "latest-version", // 让 Nuxt 识别数据，不会重复缓存
-  retry: 3, // 失败自动重试 3 次
-})
-// 组件挂载后主动刷新数据（确保客户端拿到最新数据）
-onMounted(() => {
-  refresh()
-})
+// const { data: version, refresh } = useFetch('https://chatcs.oss-rg-china-mainland.aliyuncs.com/chatcs/latest/version.txt', {
+//   headers: {
+//     "Cache-Control": "no-cache, no-store, must-revalidate",
+//     Pragma: "no-cache",
+//   },
+//   key: "latest-version", // 让 Nuxt 识别数据，不会重复缓存
+//   retry: 3, // 失败自动重试 3 次
+// })
+// // 组件挂载后主动刷新数据（确保客户端拿到最新数据）
+// onMounted(() => {
+//   refresh()
+// })
 </script>
 
 <template>
@@ -24,10 +24,22 @@ onMounted(() => {
         <NuxtImg src="/Images/light-bg-right.png" class="h-[452px]" />
       </div>
       <div class="wjaq-container mx-auto h-[100%] flex flex-col justify-center items-center">
-        <div class="text-[52px] color-[#fff]"><span class="font-bold-600">万径千机（SecMate）</span>新一代网络安全高级AI智能体</div>
+        <div class="text-[52px] color-[#fff]"><span class="font-bold-600">万径千机</span>新一代网络安全高级AI智能体</div>
         <div class="text-[18px] mt-[20px] color-[#fff]">
           具备自主规划、动态决策、工具调度、全程自主四大优势，能够7X24小时自主完成复杂网络安全任务，大幅提升人工效率</div>
-        <div class="mt-[60px] flex justify-between gap-[150px]">
+        <a href="https://yaklang.oss-cn-beijing.aliyuncs.com/qianji-product-brief.pdf" target="_block">
+          <span
+            class="inline-block rounded-[43px] bg-[#000] color-[#fff] py-[10px] px-[40px] h-[48px] text-[18px] leading-[26px] text-center mt-[55px]">
+            <svg class="w-[18px] h-[16px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 16" fill="none">
+              <path d="M1 9.5V12.5C1 13.6046 1.89543 14.5 3 14.5H15C16.1046 14.5 17 13.6046 17 12.5V9.5" stroke="white"
+                stroke-width="1.5" stroke-linecap="round" />
+              <path d="M5 5.80159L9 8.92857M9 8.92857L13 5.80159M9 8.92857V1" stroke="white" stroke-width="1.5"
+                stroke-linecap="round" />
+            </svg>
+            下载一指禅
+          </span>
+        </a>
+        <!-- <div class="mt-[60px] flex justify-between gap-[150px]">
           <a :href="`https://chatcs.oss-rg-china-mainland.aliyuncs.com/chatcs/${version?.trim()}/secmate-darwin-arm64-万径千机-${version?.trim()}.zip`"
             download>
             <div class="rounded-[43px] bg-[#000] color-[#fff] py-[10px] px-[30px]">
@@ -101,7 +113,7 @@ onMounted(() => {
               </span>
             </div>
           </a>
-        </div>
+        </div> -->
       </div>
     </div>
     <div class="wjaq-container mx-auto overflow-hidden">
@@ -243,9 +255,9 @@ onMounted(() => {
               <path d="M4.47035e-07 18L18 18L18 4.47035e-07" stroke="#0070FF" stroke-width="6" />
             </svg>
           </div>
-          <div class="text-[20px] text-center font-bold-600">实战推演面对攻击IP时，「万径千机」从攻击溯源到自动封禁的全过程</div>
+          <div class="text-[20px] text-center font-bold-600">实战演示万径干机自动识别输入点注入Paylaod检测XSS漏洞的全过程</div>
           <div class="mt-[40px] text-center">
-            <video controls width="1040px">
+            <video controls width="1040px" data-speed="1.5">
               <source src="/Videos/qj_video.mp4" type="video/mp4" />
               您的浏览器不支持 video 标签。
             </video>

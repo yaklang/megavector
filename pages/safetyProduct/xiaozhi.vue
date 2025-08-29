@@ -119,8 +119,8 @@ const coreTechnologyList = ref([
               <div class="text-[18px] mt-[10px] color-[#fff]">打破信息差<span class="font-bold-600">自动执行</span></div>
             </div>
           </div>
-          <a href="https://yaklang.oss-cn-beijing.aliyuncs.com/xiaozhi-product-white-paper.pdf" download
-            target="_block">
+          <a href="https://yaklang.oss-cn-beijing.aliyuncs.com/xiaozhi-product-white-paper.pdf" download target="_block"
+            class="mr-[20px]">
             <span
               class="inline-block rounded-[43px] bg-[#000] color-[#fff] py-[10px] px-[30px] h-[48px] text-[18px] leading-[26px] text-center mt-[55px]">
               <svg class="w-[18px] h-[16px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 16" fill="none">
@@ -130,6 +130,18 @@ const coreTechnologyList = ref([
                   stroke-linecap="round" />
               </svg>
               下载白皮书
+            </span>
+          </a>
+          <a href="https://yaklang.oss-cn-beijing.aliyuncs.com/xiaozhi-product-brief.pdf" target="_block">
+            <span
+              class="inline-block rounded-[43px] bg-[#000] color-[#fff] py-[10px] px-[40px] h-[48px] text-[18px] leading-[26px] text-center mt-[55px]">
+              <svg class="w-[18px] h-[16px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 16" fill="none">
+                <path d="M1 9.5V12.5C1 13.6046 1.89543 14.5 3 14.5H15C16.1046 14.5 17 13.6046 17 12.5V9.5"
+                  stroke="white" stroke-width="1.5" stroke-linecap="round" />
+                <path d="M5 5.80159L9 8.92857M9 8.92857L13 5.80159M9 8.92857V1" stroke="white" stroke-width="1.5"
+                  stroke-linecap="round" />
+              </svg>
+              下载一指禅
             </span>
           </a>
         </div>
