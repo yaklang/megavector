@@ -44,7 +44,7 @@ const bannerBottomList = [
   { imgUrl: "/Images/zgjrrzzx.png" },
 
   { imgUrl: "/Images/dzkjdx.png" },
-  { imgUrl: "/Images/zgkxy.png" },
+  { imgUrl: "/Images/zgkxydx.png" },
   { imgUrl: "/Images/zgkxjsdx.png" },
   { imgUrl: "/Images/zzdx.png" }
 ]
@@ -217,7 +217,7 @@ const newBannerBottomList = computed(() => {
 
     <!-- 万径树 -->
     <div class="my-[150px]">
-      <img src="/Images/wanjin_tree.png" class="max-h-[1100px] mx-auto block" />
+      <img src="/Images/wanjin_tree.png" class="max-h-[1000px] mx-auto block" />
     </div>
 
     <!-- 底部轮播 -->
