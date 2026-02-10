@@ -29,7 +29,7 @@
               下载白皮书
             </span>
           </a>
-          <a href="https://www.yaklang.com/irify" target="_block">
+          <a href="https://ssa.to/" target="_block">
             <span
               class="inline-block rounded-[43px] bg-[#000] color-[#fff] py-[10px] px-[40px] h-[48px] text-[18px] leading-[26px] text-center mt-[55px]">
               进入IRify 官网
