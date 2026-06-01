@@ -9,7 +9,9 @@
       </div>
       <div class="footer-text text-[14px] text-[#A8A9AA]">
         <span>Copyright 2013© 四维创智(北京)科技发展有限公司 All Rights Reserved <a href="https://beian.miit.gov.cn/"
-            target="_blank">京ICP备17047700号-4</a></span>
+            target="_blank">京ICP备17047700号-4</a>&nbsp;<a
+            href="https://beian.mps.gov.cn/#/query/webSearch?code=11010802048713" rel="noreferrer"
+            target="_blank">京公网安备11010802048713号</a></span>
         <span class="mx-[25px]">邮编：100085</span>
         <span>地址：北京市海淀区上地街道金隅嘉华大厦F座804</span>
       </div>
