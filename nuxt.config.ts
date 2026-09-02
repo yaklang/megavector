@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   app: {
     // head
     head: {
-      title: "万径安全",
+      title: "四维创智（北京）科技发展有限公司 - 万径安全 - 网络安全服务",
       meta: [
         {
           name: "viewport",
@@ -20,6 +20,10 @@ export default defineNuxtConfig({
           name: "description",
           content:
             "公司以“AI+YAK”为企业核心战略，专注于网络安全基础设施和智能化技术研究，打造了首款网络安全语言YAK和网络安全高级AI智能体万径千机两大核心。",
+        },
+        {
+          name: "baidu-site-verification",
+          content: "codeva-uRwiBjCLC9",
         },
       ],
     },
