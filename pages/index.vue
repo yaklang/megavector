@@ -1,6 +1,6 @@
 <script setup>
 useSeoMeta({
-  ogTitle: '万径安全',
+  ogTitle: '四维创智（北京）科技发展有限公司 - 万径安全 - 网络安全服务',
   ogDescription: '公司以“AI+YAK”为企业核心战略，专注于网络安全基础设施和智能化技术研究，打造了首款网络安全语言YAK和网络安全高级AI智能体万径千机两大核心。',
 })
 import SwiperCore, { Autoplay, Navigation, Pagination } from 'swiper'
@@ -78,6 +78,7 @@ const newBannerBottomList = computed(() => {
                   重新定义<span class="color-[#0070FF]">安全能力融合</span>
                 </div>
                 <div class="text-[22px] leading-[30px]">让世界更安全，让安全更简单</div>
+                <div class="text-[16px] leading-[28px] mt-[12px]">四维创智（北京）科技发展有限公司 | 万径安全</div>
               </div>
             </div>
           </div>

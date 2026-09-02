@@ -8,7 +8,7 @@
         <NuxtImg src="/Images/logo_transparent.png" class="w-[95px]" />
       </div>
       <div class="footer-text text-[12px] text-[#A8A9AA]">
-        <span>Copyright 2013© 四维创智(北京)科技发展有限公司 All Rights Reserved <a href="https://beian.miit.gov.cn/"
+        <span>Copyright 2013© 四维创智（北京）科技发展有限公司 All Rights Reserved <a href="https://beian.miit.gov.cn/"
             target="_blank">京ICP备17047700号-4</a>&nbsp;<a
             href="https://beian.mps.gov.cn/#/query/webSearch?code=11010802048713" rel="noreferrer"
             target="_blank">京公网安备11010802048713号</a></span>
